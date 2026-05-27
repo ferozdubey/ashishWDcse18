@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // JS variable Data Value Types
+        
+        // primitive : Immutable single value and store in memory
+
+        // STRING===
+        var myName="Abhay";
+        console.log("my name is "+ myName);
+        console.log(typeof(myName));
+
+        //Boolean
+        var isMarried=true;
+        console.log(myName + "is married ? " + isMarried);
+        console.log(typeof(isMarried));
+        //Undefined
+        var myAdd;
+        console.log(myName + " address id " + myAdd);
+        console.log(typeof(myAdd));
+
+        // null
+        var myEmail=null;
+        console.log(myName + " e-mail address is " + myEmail);
+        console.log(typeof(myEmail));
+
+        //bigint
+        var myValue=BigInt(345435345634646456576)
+        console.log(myValue);
+        console.log(typeof(myValue));
+        //symbol- unique primitive data value type in JS
+        var val1=symbol("Hello");
+        var val2=symbol("Hello");
+        console.log(val1==val2);
+        console.log(typeof(val1) + " and " + typeof(val2));
+
+        //Reference or Non-Primitive Data value Types========
+        //object {} - values are defined in paird of key value
+    </script>
+    
+</body>
+</html>
